@@ -6,4 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# put your path 
 student_library = { path = "/Users/ganesholi/Developer/rust-practice/student-management/student_library" }

@@ -1,0 +1,1 @@
+/Users/ganesholi/Developer/rust-practice/student-management/student_library/target/debug/libstudent_library.rlib: /Users/ganesholi/Developer/rust-practice/student-management/student_library/src/lib.rs

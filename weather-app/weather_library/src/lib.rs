@@ -31,6 +31,16 @@ pub struct Weather {
     pub conditions: Vec<Condition>
 }
 
+#[derive(Debug, Clone, PartialEq)]
+pub struct Weather2 {
+    weather: Vec<WeatherDetails>,
+}
+#[derive(Debug, Clone, PartialEq)]
+
+struct WeatherDetails {
+    description: String,
+}
+
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum Condition {
     Clear,
@@ -56,28 +66,28 @@ impl WeatherClient {
         self.locations.insert(location.name.clone(), location);
     }
 
-    pub fn get_weather(&self, location: &str) -> Option<Weather> {
-        let location = self.locations.get(location)?;
-        let weather = self.fetch_weather(location)?;
-        Some(weather)
-    }
+    // pub fn get_weather(&self, location: &str) -> Option<Weather> {
+    //     let location = self.locations.get(location)?;
+    //     let weather = self.fetch_weather(location)?;
+    //     Some(weather)
+    // }
 
     pub fn get_weather2(&self, location: &str) -> Option<&Location> {
        let location = self.locations.get(location).unwrap();
        Some(location)
     }
 
-    pub fn fetch_weather(&self, location: &Location) -> Option<Weather> {
-        // Make a request to the weather API using the location coordinates and the API key.
-        // Parse the response and return a Weather object.
-        // If the request fails or the response is invalid, return None.
-        None
-    }
+    // pub fn fetch_weather(&self, location: &Location) -> Option<Weather> {
+    //     // Make a request to the weather API using the location coordinates and the API key.
+    //     // Parse the response and return a Weather object.
+    //     // If the request fails or the response is invalid, return None.
+    //     None
+    // }
 
     pub async fn fetch_weather2(&self, city: String) -> Result<String, Error> {
         let url: String = format!(
-            "https://restapi.amap.com/v3/weather/weatherInfo?key={}&city={}",
-            self.api_key, city,
+            "https://api.openweathermap.org/data/2.5/weather?q={}&appid={}",
+            city, self.api_key,
         );
     
         let body = reqwest::get(url)

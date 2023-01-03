@@ -1,1 +1,1 @@
-This is student management app. You can find student reusable library with function `add_student`, `remove_student`, `get_student` and `get_students`. Use this in rust app.
+This is simple student management app. You can find student reusable library with function `add_student`, `remove_student`, `get_student` and `get_students`. Use this in rust app.

@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use reqwest::Error;
 
 #[derive(Debug, Clone, PartialEq)]
 pub struct Coordinates {
@@ -72,4 +73,18 @@ impl WeatherClient {
         // If the request fails or the response is invalid, return None.
         None
     }
+
+    pub async fn fetch_weather2(&self, city: String) -> Result<String, Error> {
+        let url: String = format!(
+            "https://restapi.amap.com/v3/weather/weatherInfo?key={}&city={}",
+            self.api_key, city,
+        );
+    
+        let body = reqwest::get(url)
+            .await?
+            .text()
+            .await?;
+        return Ok(body);
+    }
+
 }

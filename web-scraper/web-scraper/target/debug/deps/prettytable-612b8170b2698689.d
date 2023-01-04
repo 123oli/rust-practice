@@ -1,0 +1,10 @@
+/Users/ganesholi/Developer/rust-practice/web-scraper/web-scraper/target/debug/deps/prettytable-612b8170b2698689.rmeta: /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/lib.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/cell.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/format.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/row.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/utils.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/csv.rs
+
+/Users/ganesholi/Developer/rust-practice/web-scraper/web-scraper/target/debug/deps/prettytable-612b8170b2698689.d: /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/lib.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/cell.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/format.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/row.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/utils.rs /Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/csv.rs
+
+/Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/lib.rs:
+/Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/cell.rs:
+/Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/format.rs:
+/Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/row.rs:
+/Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/utils.rs:
+/Users/ganesholi/.cargo/registry/src/github.com-1ecc6299db9ec823/prettytable-rs-0.10.0/src/csv.rs:
